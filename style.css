@@ -1,0 +1,94 @@
+.mainDiv {
+  margin: 0 19%;
+  width: 61%;
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+  
+  background-color: black;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  /* background-image: url(images/background1.jpg); */
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mainDiv::after{
+    content:"";
+    position:absolute;
+    left:30px;
+    top:30px;
+    height: 100%;
+    width:94%;
+    border: 2px dotted white;
+    border-radius: 25px;
+}
+
+.div1 {
+  height: 400px;
+  padding: 45px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  /* background-color: grey; */
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+}
+
+.slantedDiv {
+  position: relative;
+  padding: 100px;
+  top: 187px;
+  left: 0;
+  height: 308px;
+  transform: skewY(-4.4deg);
+  -webkit-transform: skewY(-4.4deg);
+  -moz-transform: skewY(-4.4deg);
+  -ms-transform: skewY(-4.4deg);
+  -o-transform: skewY(-4.4deg);
+}
+
+.slantedDiv p {
+  transform: skewY(4.4deg);
+  -webkit-transform: skewY(4.4deg);
+  -moz-transform: skewY(4.4deg);
+  -ms-transform: skewY(4.4deg);
+  -o-transform: skewY(4.4deg);
+}
+
+.div2 {
+  background-color: #F1E7DE;
+}
+
+.div3 {
+  background-color: lightgreen;
+}
+
+.div4 {
+  background-color: lightyellow;
+}
+
+.div5 {
+  background-color: lightblue;
+}
+
+.div6 {
+  background-color: #F1E7DE;
+}
+
+.div7 {
+  background-color: lightgreen;
+}
+
+.div8 {
+  background-color: lightyellow;
+}
+
+.div9 {
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+.inner-outline {
+  /* outline: 1px dotted white;
+  outline-radius:200px;
+  outline-offset: -54px; */
+  border: 1px solid #000;
+}

@@ -55,11 +55,46 @@
 
 .div2 {
   background-color: #F1E7DE;
+  font-family: 'Ruthie','Sacramento';
+  font-size: 30px;
 }
 
 .div3 {
   background-color: lightgreen;
+  font-family: 'Sacramento';
+  font-size: 30px;
 }
+
+.article {
+  /* width: 60%; */
+  margin: 0;
+  padding: 0;
+}
+
+.article::first-letter {
+  -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+  color: black;
+  font-weight: normal;
+  font-size: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+.heading2{
+  font-size: 20px;
+}
+
+.heading3{
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.para1{
+  font-size: 15px;
+  font-family: monospace;
+}
+
 
 .div4 {
   background-color: lightyellow;

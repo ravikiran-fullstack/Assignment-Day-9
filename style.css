@@ -10,10 +10,10 @@
   height: 100%;
   /* border: 1px solid red; */
   
-  background-color: black;
+  /* background-color: black; */
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
-  /* background-image: url(images/background1.jpg); */
+  background-image: url(images/background1.jpg);
   background-repeat: no-repeat;
   position: relative;
 }
@@ -30,20 +30,20 @@
 }
 
 .div1 {
-  height: 400px;
+  height: 628px;
   padding: 110px 100px 0px 150px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   /* background-color: grey; */
   /* clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%); */
   color: white;
-  
+  /* border: 1px solid green;  */
 }
 
 .slantedDiv {
   position: relative;
   padding: 64px 0px 0px 110px;
-  top: 187px;
+  top: -40px;
   left: 0;
   height: 505px;
   transform: skewY(-4.4deg);
@@ -145,18 +145,15 @@
 .div10 {
   /* background-color: lightblue; */
   overflow: hidden;
-  /* border: 1px solid red; */
-  height: 577px;
+  height: 350px;
   padding: 45px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
-  /* background-color: grey; */
-  /* clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%); */
 }
 
-.inner-outline {
-  /* outline: 1px dotted white;
+/* .inner-outline {
+  outline: 1px dotted white;
   outline-radius:200px;
-  outline-offset: -54px; */
+  outline-offset: -54px;
   border: 1px solid #000;
-}
+} */
